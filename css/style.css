@@ -215,7 +215,7 @@ section.topo-do-site .flex {
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     border: none;
     border-radius: 30px;
     cursor: pointer;
