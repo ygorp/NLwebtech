@@ -199,7 +199,7 @@ section.topo-do-site .flex {
 .topo-do-site .img-topo-site img {
     position: relative;
     animation: flutuar 2s ease-in-out infinite alternate;
-    width: 600px;
+    width: 400px;
 }
 
 @keyframes flutuar {
@@ -209,6 +209,17 @@ section.topo-do-site .flex {
     100% {
         top: 30px;
     }
+}
+
+.btn-contato-hero button {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: var(--secondary-color);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
 }
 
 /* Estilo Especialidades */
@@ -328,8 +339,7 @@ section.sobre .flex {
 
 /* Estilo porque nos escolher */
 
-.chosen {
-    display: flex;
+.chosen .flex {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
@@ -395,6 +405,26 @@ section.sobre .flex {
     margin-bottom: 10px;
     color: var(--quaternary-color);
   }
+
+/* Estilo Chosen */
+@media screen and (max-width: 1020px) {
+    .chosen {
+        padding: 2rem;
+    }
+    .chosen h2 {
+        font-size: 2rem;
+    }
+    .chosen p {
+        font-size: 1.3rem;
+    }
+    .cards {
+        flex-direction: column;
+    }
+    .card {
+        width: 100%;
+        height: 100%;
+    }
+}
 
 /* Estilo Portifólio */
 .titulo_sites{

@@ -5,8 +5,8 @@ $email = addslashes($_POST['email']);
 $telefone = addslashes($_POST['telefone']);
 $mensagem = addslashes($_POST['mensagem']);
 
-$email_to = "ygorpacheco@devwebcriativo.com.br";
-$email_subject = "Contato pelo site - DevCriativo";
+$email_to = "contato@nlwebtech.com.br";
+$email_subject = "Contato pelo site - NLwebtech";
 
 $email_message = "Nome: ".$nome."\n"."Email: ".$email."\n"."Telefone: ".$telefone."\n"."Mensagem: ".$mensagem;
 
